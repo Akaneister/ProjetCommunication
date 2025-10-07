@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="500" viewBox="0 0 800 500">
+  <rect width="100%" height="100%" fill="#0b1020" rx="12"/>
+  <defs>
+    <linearGradient id="grad" x1="0" x2="1">
+      <stop offset="0%" stop-color="#2d6cdf"/>
+      <stop offset="100%" stop-color="#84c8ff"/>
+    </linearGradient>
+  </defs>
+  <!-- stylized IDE / eclipse-like circle -->
+  <g transform="translate(160,80)">
+    <ellipse cx="240" cy="160" rx="160" ry="120" fill="url(#grad)" opacity="0.95" />
+    <path d="M80 240 C160 200 320 200 400 240" fill="#0b1020" opacity="0.9" />
+    <circle cx="200" cy="160" r="48" fill="#fff" opacity="0.85" />
+    <circle cx="320" cy="180" r="30" fill="#ffd166" opacity="0.95" />
+  </g>
+  <text x="50%" y="90%" font-family="Segoe UI, Roboto, Arial, sans-serif" font-size="26" fill="#e6eef8" text-anchor="middle">IDE — JavaFX</text>
+</svg>

@@ -15,7 +15,7 @@
 						<li><a href="#about">Bio</a></li>
 						<li><a href="#skills">Skills</a></li>
 						<li><a href="#projects">Projets</a></li>
-						<li><a href="#contact">Contact</a></li>
+						<li><a href="#about">Contact</a></li>
 					</ul>
 				</nav>
 			</header>
@@ -23,7 +23,19 @@
 			<!-- HERO -->
 			<section id="home" class="section hero">
 				<div class="hero-inner">
-					<h1 class="hero-title">Oscar Vieujean</h1>
+                    <h1 class="hero-title" style="animation: fadeIn 1.5s ease-in-out;">Oscar Vieujean</h1>
+                    <style>
+                        @keyframes fadeIn {
+                            from {
+                                opacity: 0;
+                                transform: translateY(-20px);
+                            }
+                            to {
+                                opacity: 1;
+                                transform: translateY(0);
+                            }
+                        }
+                    </style>
 					<p class="hero-sub">étudiant master 2</p>
 				</div>
 			</section>
@@ -151,7 +163,9 @@
 						<!-- Project 2 -->
 						<article class="project-card">
 							<a href="#proj-2" class="project-link">
-								<div class="project-media placeholder">Image / Vidéo</div>
+								<div class="project-media">
+									<img src="./source/eclipse.png" alt="JavaFX / Eclipse" class="project-thumb">
+								</div>
 								<div class="project-body">
 									<h3>Gestion étudiant (Java / JavaFX)</h3>
 									<p>Application desktop JavaFX pour la gestion d'étudiants, classes, matières et messagerie interne. Travail collaboratif & Github.</p>
@@ -175,7 +189,9 @@
 						<!-- Project 4 -->
 						<article class="project-card">
 							<a href="#proj-4" class="project-link">
-								<div class="project-media placeholder">Image / Vidéo</div>
+								<div class="project-media">
+									<img src="./source/clang.png" alt="C / Clang" class="project-thumb">
+								</div>
 								<div class="project-body">
 									<h3>Optimisation d'images (C)</h3>
 									<p>Optimiseur d'images en C utilisant des matrices et calculs sur pixels pour améliorer la qualité/compactage.</p>
@@ -186,15 +202,7 @@
 				</div>
 			</section>
 
-			<!-- CONTACT FOOTER -->
-			<section id="contact" class="section contact">
-				<div class="container contact-inner">
-					<h2 class="section-title">Contact</h2>
-					<p>Pour échanger sur un projet ou une opportunité :</p>
-					<p class="contact-large">Email : <a href="mailto:Oscar.vieujean@outlook.com">Oscar.vieujean@outlook.com</a> — Tél : +33 07 84 52 33 09</p>
-					<p class="muted">Brest, France</p>
-				</div>
-			</section>
+
 
 			<footer class="footer">
 				<div class="container">© Oscar Vieujean — Portfolio — Master 2 ILLIADE</div>
@@ -243,7 +251,7 @@
 			<div class="dialog">
 				<a class="close" href="#projects">✕</a>
 				<div class="dialog-media">
-					<div class="dialog-placeholder">Image / Vidéo</div>
+					<img src="./source/eclipse.png" alt="JavaFX / Eclipse" class="dialog-image">
 				</div>
 				<h2>Gestion étudiant — Java / JavaFX</h2>
 				<p><strong>Réalisation 2</strong></p>
@@ -261,7 +269,7 @@
 				<p><strong>Technologies utilisées :</strong></p>
 				<div class="tech-list">
 					<div class="tech-item"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/java/java-original.svg" alt="Java"><span>Java</span></div>
-					<div class="tech-item"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javafx/javafx-original.svg" alt="JavaFX"><span>JavaFX</span></div>
+					<div class="tech-item"><img src="data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' width='36' height='36' viewBox='0 0 36 36'><rect width='36' height='36' rx='6' fill='%2300AEEF'/><text x='18' y='22' font-family='Arial,Helvetica,sans-serif' font-size='12' fill='%23fff' text-anchor='middle'>FX</text></svg>" alt="JavaFX"><span>JavaFX</span></div>
 					<div class="tech-item"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" alt="Github"><span>Github</span></div>
 					<div class="tech-item"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/eclipse/eclipse-original.svg" alt="Eclipse"><span>Eclipse</span></div>
 				</div>
@@ -300,7 +308,7 @@
 			<div class="dialog">
 				<a class="close" href="#projects">✕</a>
 				<div class="dialog-media">
-					<div class="dialog-placeholder">Image / Vidéo</div>
+					<img src="./source/clang.png" alt="C / Clang" class="dialog-image">
 				</div>
 				<h2>Optimisation d'images — C</h2>
 				<p><strong>Réalisation 4</strong></p>
@@ -314,10 +322,10 @@
 					<li>Projet réalisé en autonomie avec versioning sur GitHub.</li>
 				</ul>
 				<p><strong>Technologies utilisées :</strong></p>
-				<div class="tech-list">
-					<div class="tech-item"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/c/c-original.svg" alt="C"><span>C</span></div>
-					<div class="tech-item"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" alt="Github"><span>Github</span></div>
-				</div>
+					<div class="tech-list">
+						<div class="tech-item"><img src="source/clang.svg" alt="Clang"><span>C</span></div>
+						<div class="tech-item"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" alt="Github"><span>Github</span></div>
+					</div>
 				<p class="muted">Cliquer sur la croix pour revenir</p>
 			</div>
 		</div>

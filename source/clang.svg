@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="512" height="512" viewBox="0 0 512 512">
+  <rect width="100%" height="100%" fill="#0b1220" rx="12"/>
+  <g transform="translate(40,40) scale(0.8)">
+    <circle cx="216" cy="216" r="180" fill="#2b2d42" />
+    <path d="M120 360 L280 120 L360 160 L200 400 Z" fill="#7dd3fc" opacity="0.95" />
+    <path d="M300 120 C320 150 340 220 300 260" stroke="#fff" stroke-width="12" fill="none" opacity="0.9" />
+  </g>
+  <text x="50%" y="92%" font-family="Segoe UI, Roboto, Arial, sans-serif" font-size="36" fill="#e6eef8" text-anchor="middle">clang</text>
+</svg>
