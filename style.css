@@ -89,6 +89,8 @@ img{max-width:100%;display:block}
 .dialog-video{width:100%;height:100%;object-fit:cover;display:block;pointer-events:none}
 .dialog .close{z-index:6}
 
+.dialog-image{width:100%;height:100%;object-fit:cover;display:block}
+
 @media (max-width: 900px){
 	.dialog-media{height:260px}
 }
